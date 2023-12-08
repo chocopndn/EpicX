@@ -24,10 +24,10 @@ To get started with EpicX Game Store, follow these simple steps:
    ```bash
    git clone https://github.com/chocopndn/EpicX.git
    ```
-2. Open the project:
+2. **Open the project:**
 
-- **Navigate to the project folder and open index.html in your web browser.
-  That's it! You're ready to explore EpicX Game Store.**
+- Navigate to the project folder and open index.html in your web browser.
+  That's it! You're ready to explore EpicX Game Store.
 
 ## Live Page
 
