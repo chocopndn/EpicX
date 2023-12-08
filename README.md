@@ -29,6 +29,10 @@ To get started with EpicX Game Store, follow these simple steps:
 - **Navigate to the project folder and open index.html in your web browser.
   That's it! You're ready to explore EpicX Game Store.**
 
+## Live Page
+
+Explore the live page or preview the project [here](https://chocopndn.github.io/EpicX/)
+
 ## Issues
 
 If you encounter any issues or have suggestions, please create an issue on our [GitHub repository](https://github.com/chocopndn/EpicX/issues)
