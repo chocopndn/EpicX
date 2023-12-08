@@ -1,0 +1,84 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    width: 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px;
+    background-color: #E70009;
+    height: 10px;
+}
+
+/* nav */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0 20px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* right section */
+.right-container {
+    display: flex;
+    align-items: center;
+}
+
+.cart-container {
+    margin-right: 20px;
+}
+
+.log-in {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 8px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    background-color: #E70009;
+    color: white;
+}
+
+/* Log In */
+#log-in-card {
+    display: none;
+}
+
+#log-in-card:target {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+    background-color: #E70009;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+#hideButton{
+    position: absolut;
+    /* top: 100px; */
+}
