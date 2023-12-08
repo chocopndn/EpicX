@@ -1,10 +1,10 @@
 # EpicX Game Store
 
-Welcome to EpicX Game Store, a collaborative project for the Empowerment Technology finals.
+Welcome to [EpicX Game Store](https://chocopndn.github.io/EpicX/), a collaborative project for the Empowerment Technology finals.
 
 ## Project Overview
 
-EpicX Game Store is a web-based game store focusing on Nintendo Switch, Xbox, and PlayStation platforms. This project is part of the Empowerment Technology course under the guidance of Mr. B-Jay N. Dayaca.
+EpicX Game Store is a web-based game store focusing on Nintendo Switch, Xbox, and PlayStation platforms. This project is part of the Empowerment Technology course under the guidance of Mr. [B-Jay N. Dayaca](https://www.facebook.com/bjayndayaca.0424)
 
 ## Features
 
@@ -48,6 +48,6 @@ Special thanks to the following contributors for their hard work on this project
 
 ## Acknowledgements
 
-We would like to express our gratitude to Mr. B-Jay N. Dayaca for his guidance and support throughout this Empowerment Technology project.
+We would like to express our gratitude to Mr. [B-Jay N. Dayaca](https://www.facebook.com/bjayndayaca.0424) for his guidance and support throughout this Empowerment Technology project.
 
 Let the gaming adventure begin! 🚀🎮
