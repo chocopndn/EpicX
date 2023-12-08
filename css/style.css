@@ -674,3 +674,34 @@ footer{
 .game-shown-container{
   margin-top: 20px;
 }
+
+/* Warning for smaller screen*/
+@media screen and (max-width: 1023px) {
+  
+  
+  main, header, footer {
+    display: none;
+  }
+
+  
+  body::before {
+    content: "Warning: This website is best viewed on a larger screen. Please switch to a desktop/laptop device for an optimal experience.";
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: #E70009;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 80%; 
+    max-width: 400px; 
+    font-size: 24px;
+  }
+
+  html {
+    background-color: #E70009;
+  }
+}
