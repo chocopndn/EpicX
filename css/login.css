@@ -3,6 +3,7 @@
 body{
     font-family: 'Inter', sans-serif;
     margin: 0;
+    color: white;
 }
 .logo{
     width: 150px;
@@ -59,33 +60,93 @@ li > a{
     background-color: #E70009;
     color: white;
 }
+.box{
+display: inline-block;
+/* border: 5px solid black; */
+border-radius: 20px;
 
-/* login */
-.login-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 83vh;
+box-shadow: 0px 0px 20px 3px gray;
+
 }
 
-.login-card{
-    background-color: #E70009;
+.left{
+  background-color: #E70009;
+  width: 300px;
+  height: 400px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.right{
+    background-color: white;
+    width: 300px;
     height: 400px;
-    width: 750px;
-    border-radius: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+
+  .card-holder{
+    display: flex;
+  }
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 83vh;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.logo-login{
+  width: 200px;
 }
 
 form{
-    display: flex;
-
-    color: white;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
 }
 
-.password-container{
-    padding-top: 20px;
+.password{
+  padding: 20px 0;
+}
+
+input[type=submit]{
+  background-color: #E70009;
+  border-radius: 10px;
+  padding: 5px 83px;
+  border: none;
+  color: white;
+  font-weight: bold;
+
+  box-shadow: 0 0 5px 1px gray;
+}
+
+input[type=text], input[type=password]{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+
+  box-shadow: 0 0 5px 1px gray;
+}
+
+.social-logo{
+  width: 25px;
+  padding: 20px;
 }
