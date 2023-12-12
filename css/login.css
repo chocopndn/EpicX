@@ -59,3 +59,33 @@ li > a{
     background-color: #E70009;
     color: white;
 }
+
+/* login */
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+}
+
+.login-card{
+    background-color: #E70009;
+    height: 400px;
+    width: 750px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+
+    color: white;
+    flex-direction: column;
+}
+
+.password-container{
+    padding-top: 20px;
+}
