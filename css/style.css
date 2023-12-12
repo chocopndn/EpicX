@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 .logo{
-    width: 80px;
+    width: 150px;
 }
 
 header{
@@ -252,9 +252,6 @@ text-align: center;
 body{
     font-family: 'Inter', sans-serif;
     margin: 0;
-}
-.logo{
-    width: 80px;
 }
 
 header{
@@ -516,7 +513,7 @@ text-align: center;
 #show:hover{
   opacity: 0.5;
 }
-p{
+footer p{
   text-align: center;
   align-items: center;
   color: gray;
@@ -754,3 +751,31 @@ footer{
 .game-image:last-child {
   margin-bottom: 20px;
 }
+
+/* Neil */
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  }
+  
+  .image{
+      height: 100px;
+      width: 150px;
+      margin: 10px;
+      border: 3px solid #fff;
+      border-radius: 5px;
+      border-color: #E70009;
+  }
+  
+.intro{
+  padding-top: 50px;
+}
+
+  .intro p{
+      display: flex;
+      flex-direction: column;
+      padding: 0 50px 0 50px;
+  }
