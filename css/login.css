@@ -86,9 +86,15 @@ box-shadow: 0px 0px 20px 3px gray;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 
+    color: black;
+  }
+
+  .right > h1{
+    margin: 0;
+    padding: 0;
   }
 
 
@@ -119,11 +125,14 @@ form{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 400px;
+  height: auto;
+
+  padding: 0;
+  margin: 0;
 }
 
 .password{
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 input[type=submit]{
@@ -148,5 +157,48 @@ input[type=text], input[type=password]{
 
 .social-logo{
   width: 25px;
-  padding: 20px;
+  padding: 10px 20px;
+}
+
+legend{
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+hr{
+  width: 85px;
+  display: inline-block;
+  border-color: lightgray;
+}
+
+.or-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 10px;
+}
+
+.or{
+  display: inline-block;
+  padding: 0 5px;
+  color: gray;
+  font-size: 10px;
+}
+
+.no-account > p{
+  font-size: 10px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.forgot-password p{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.forgot-password{
+  padding: 10px;
 }
