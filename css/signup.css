@@ -125,20 +125,24 @@ form{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: auto;
+  /* height: auto; */
 
   padding: 0;
   margin: 0;
 }
 
 .password{
+  padding: 20px 0;
+}
+
+.email{
   padding-top: 20px;
 }
 
 input[type=submit]{
   background-color: #E70009;
   border-radius: 10px;
-  padding: 5px 83px;
+  padding: 5px 78px;
   border: none;
   color: white;
   font-weight: bold;
@@ -147,7 +151,7 @@ input[type=submit]{
   cursor: pointer;
 }
 
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=email]{
   border: 1px solid black;
   border-radius: 5px;
   height: 30px;
@@ -192,14 +196,4 @@ hr{
   font-size: 10px;
   margin: 0;
   padding-top: 10px;
-}
-
-.forgot-password p{
-  font-size: 10px;
-  margin: 0;
-  padding: 0;
-}
-
-.forgot-password{
-  padding: 10px;
 }

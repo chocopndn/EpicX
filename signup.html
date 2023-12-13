@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Log in</title>
-    <link rel="stylesheet" href="./css/login.css" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/signup.css" />
   </head>
   <body>
     <header>
@@ -19,7 +19,7 @@
           <li><a href="">Store</a></li>
           <li><a href="">Wishlist</a></li>
           <li><a href="">Support</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="footer">About</a></li>
         </ul>
       </nav>
 
@@ -40,34 +40,40 @@
             </div>
             <div class="right">
               <div class="form-container">
-                <legend>Sign In</legend>
-                <form action="">
-                  <div class="username">
-                    <!-- <label for="username">Username</label><br /> -->
-                    <input
-                      type="text"
-                      name="username"
-                      id="username"
-                      placeholder="Username"
-                    />
+                <legend>Sign Up</legend>
+                <form action="./index.html">
+                  <div class="input">
+                    <div class="username">
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Username"
+                      />
+                    </div>
+                    <div class="email">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="password">
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Password"
+                      />
+                    </div>
                   </div>
-                  <div class="password">
-                    <!-- <label for="password">Password</label><br /> -->
-                    <input
-                      type="password"
-                      name="password"
-                      id="password"
-                      placeholder="Password"
-                    />
-                  </div>
-                  <div class="forgot-password">
-                    <a href=""><p>Forgot password?</p></a>
-                  </div>
+
                   <input
                     type="submit"
                     name="submit"
                     id="submit"
-                    value="Log In"
+                    value="Sign Up"
                   />
                   <div class="or-container">
                     <hr />
@@ -98,8 +104,8 @@
                   </div>
                   <div class="no-account">
                     <p>
-                      Don't have an account?
-                      <a href="./signup.html">Create an account.</a>
+                      Already have an account?
+                      <a href="./login.html">Log in.</a>
                     </p>
                   </div>
                 </form>
