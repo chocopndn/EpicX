@@ -36,6 +36,13 @@ li > a{
     color: white;
 }
 
+#home{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  
+}
+
 /* right section */
 
 .right-container{
