@@ -15,6 +15,27 @@ header{
     padding: 50px 50px 50px 50px;
     background-color: #E70009;
     height: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .log-in{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 8px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 10px;
+    border: 2px solid #E70009;
+    background-color: #E70009;
+    color: #E70009;
+    cursor: default;
+}
+
+.profile > img {
+    width: 35px;
 }
 
 /* nav */
@@ -97,10 +118,11 @@ body {
     border-radius: 20px;
     width: 250px;
     height: 330px;
+    transition: transform 0.3s ease;
 }
 
-.game-container:hover{
-    transform: scale(1.05);
+.game-container:hover{    
+        transform: scale(1.03);
 }
 
 .game-image{
@@ -190,3 +212,57 @@ hr{
 .xbox, .playstation, .switch{
     margin: 0;
 }
+
+.below-container{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.below-container{
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+  }
+
+  footer{
+    margin: 0;
+    font-family: 'Inter';
+    color: white;
+    font-size: small;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    word-spacing: 1px;
+  }
+  #below{
+    color: white;
+    font-family: 'Inter';
+    font-size: small;
+    display: inline-block;
+    text-decoration: none;
+    word-spacing: 2px;
+  }
+  #below:hover{
+    opacity: none;
+    text-decoration-line: underline;
+    text-decoration-color: #e70009;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4.5px;
+  }
+  #phflag{
+    height: 10px;
+    width: 15px;
+  }
+
+  footer p{
+    text-align: center;
+    align-items: center;
+    color: gray;
+    font-family: 'Inter';
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+  }
