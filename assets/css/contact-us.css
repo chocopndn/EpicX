@@ -1,0 +1,58 @@
+.cu-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Inter';
+}
+.cuh2title {
+    color: #e70009;
+    font-family: 'Inter';
+}
+.cu-p {
+    line-height: 1.5;
+    font-family: 'Inter';
+}
+.contact-form {
+    max-width: 600px;
+    margin-top: 20px;
+}
+.cu-label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.cu-input, .cu-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cu-button {
+    background-color: #e60012;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cu-button:hover {
+    background-color: #e70009;
+}
+.cu-href{
+    text-decoration: none;
+    color: black;
+
+}
+.cu-href:hover{
+        opacity: none;
+        text-decoration-line: underline;
+        text-decoration-color: #e70009;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4.5px;
+}

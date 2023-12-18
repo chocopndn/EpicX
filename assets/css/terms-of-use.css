@@ -1,0 +1,55 @@
+.touterms{
+    font-family: 'Inter';
+    color: white;
+    text-align: center;
+}
+.toudescription{
+    font-family: 'Inter';
+    color: rgb(72, 72, 72);
+    text-align: justify;
+    font-size: 12px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+.tou-line{
+    text-decoration: underline;
+    color: #e70009;
+    
+}
+.touu-line:hover{
+    opacity: 0.7;
+}
+.toulist{
+    font-family: 'Inter';
+    color: rgb(72, 72, 72);
+    text-align: justify;
+    font-size: 12px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+.toutitle{
+    color: #e70009;
+    font-size: 15px;
+}
+.tousheader {
+    background-color: #626567;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Inter';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+}
