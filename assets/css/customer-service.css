@@ -1,26 +1,26 @@
 .csheader {
-    background-color: #626567;
-    color: #ffff;
-    text-align: center;
-    font-family: 'Inter';
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Inter';
+  background-color: #626567;
+  color: #ffff;
+  text-align: center;
+  font-family: Inter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Inter
 }
-.csparagraph{
-    line-height: 1.5;
-    font-family: 'Inter';
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 12px;
-    text-align: justify;
-    color: #484848;
+.csparagraph {
+  line-height: 1.5;
+  font-family: Inter;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 12px;
+  text-align: justify;
+  color: #484848
 }
-.cstitle{
-    line-height: 1.5;
-    font-family: 'Inter';
-    color: #e70009;
-    margin-left: 60px;
-    margin-right: 100px;
-    font-size: 15px;
+.cstitle {
+  line-height: 1.5;
+  font-family: Inter;
+  color: #e70009;
+  margin-left: 60px;
+  margin-right: 100px;
+  font-size: 15px
 }

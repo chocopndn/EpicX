@@ -1,149 +1,125 @@
-.below-container{
-    color: white;
-    background-color: black;
-    margin: 0;
-    padding: 20px;
+.below-container {
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+  padding: 20px
 }
-
-.below-container{
-    background-color: black;
-    margin: 0;
-    padding: 20px;
-  }
-
-  footer{
-    
-    margin: 0;
-    font-family: 'Inter';
-    color: white;
-    font-size: small;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-    word-spacing: 1px;
-  }
-  #below{
-    color: white;
-    font-family: 'Inter';
-    font-size: small;
-    display: inline-block;
-    text-decoration: none;
-    word-spacing: 2px;
-  }
-  #below:hover{
-    opacity: none;
-    text-decoration-line: underline;
-    text-decoration-color: #e70009;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4.5px;
-  }
-  #phflag{
-    height: 10px;
-    width: 15px;
-  }
-
-  footer p{
-    text-align: center;
-    align-items: center;
-    color: gray;
-    font-family: 'Inter';
-    font-size: x-small;
-    margin: 0;
-    padding: 0;
-  }
-
-
-  /* main */
-
-
-  .game-list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    row-gap: 15px;
-    justify-content: center;
-    padding: 20px;
-    margin: 0;
+.below-container {
+  background-color: #000;
+  margin: 0;
+  padding: 20px
 }
-
-.game-container{
-    box-shadow: 0px 0px 10px 1px gray;
-    border-radius: 20px;
-    width: 230px;
-    height: 320px;
-    transition: transform 0.3s ease;
-    margin: 15px;
+footer {
+  margin: 0;
+  font-family: Inter;
+  color: #fff;
+  font-size: small;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  word-spacing: 1px
 }
-
-.game-container:hover{    
-        transform: scale(1.03);
-        box-shadow: 0px 0px 15px 2px #E70009;
+#below {
+  color: #fff;
+  font-family: Inter;
+  font-size: small;
+  display: inline-block;
+  text-decoration: none;
+  word-spacing: 2px
 }
-
-.game-image{
-    width: 230px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+#below:hover {
+  opacity: none;
+  text-decoration-line: underline;
+  text-decoration-color: #e70009;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4.5px
 }
-
-.info-container{
-    padding-left: 15px;
-    width: 200px;
+#phflag {
+  height: 10px;
+  width: 15px
 }
-
-.game-title{
-    font-weight: 500;
-    margin: 0;
-    padding-top: 10px;
+footer p {
+  text-align: center;
+  align-items: center;
+  color: gray;
+  font-family: Inter;
+  font-size: x-small;
+  margin: 0;
+  padding: 0
 }
-
-.date-released{
-    font-size: 13px;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    color: gray;
+.game-list {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  row-gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  margin: 0
 }
-
-.price{
-    font-weight: 500;
-    margin: 0;
+.game-container {
+  box-shadow: 0 0 10px 1px gray;
+  border-radius: 20px;
+  width: 230px;
+  height: 320px;
+  transition: transform .3s ease;
+  margin: 15px
 }
-
-.game-console{
-    font-weight: 200;
-    font-size: 13px;
-    /* padding-bottom: 5px; */
-    padding-left: 5px;
+.game-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px 2px #e70009
 }
-
-.game-console-container{
-    display: flex;
-    align-items: center;
+.game-image {
+  width: 230px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px
 }
-
-hr{
-    height: 15px;
-    margin: 0;
-    background-color: #E70009;
+.info-container {
+  padding-left: 15px;
+  width: 200px
 }
-
-.console{
-    margin: 0;
-    position: relative;
-    top: 20px;
-    padding-left: 30px;
-    font-size: 26px;
+.game-title {
+  font-weight: 500;
+  margin: 0;
+  padding-top: 10px
 }
-
-.console-name-container.one-line{
-    padding-top: 47px;
+.date-released {
+  font-size: 13px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  color: gray
 }
-
-.console-name-container.two-line{
-    padding-top: 29px;
+.price {
+  font-weight: 500;
+  margin: 0
 }
-
-.console-name-container.three-line{
-    padding-top: 10px;
+.game-console {
+  font-weight: 200;
+  font-size: 13px;
+  padding-left: 5px
+}
+.game-console-container {
+  display: flex;
+  align-items: center
+}
+hr {
+  height: 15px;
+  margin: 0;
+  background-color: #e70009
+}
+.console {
+  margin: 0;
+  position: relative;
+  top: 20px;
+  padding-left: 30px;
+  font-size: 26px
+}
+.console-name-container.one-line {
+  padding-top: 47px
+}
+.console-name-container.two-line {
+  padding-top: 29px
+}
+.console-name-container.three-line {
+  padding-top: 10px
 }

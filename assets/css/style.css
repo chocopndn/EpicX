@@ -1,27 +1,24 @@
-/* Main */
-/* ads */
 body {
-  background-color:white;
+  background-color: #fff
 }
 .csslider {
-  
   perspective: 1300px;
   display: inline-block;
   text-align: left;
   position: relative;
-  margin-bottom: 22px;
+  margin-bottom: 22px
 }
 .csslider > input {
-  display: none;
+  display: none
 }
 .csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
-  margin-left: -200%;
+  margin-left: -200%
 }
 .csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
-  margin-left: -100%;
+  margin-left: -100%
 }
 .csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
-  margin-left: 0%;
+  margin-left: 0
 }
 .csslider > ul {
   position: relative;
@@ -30,25 +27,25 @@ body {
   z-index: 1;
   font-size: 0;
   line-height: 0;
-  border: 10px solid white;
+  border: 10px solid #fff;
   border-radius: 40px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   white-space: scroll;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .csslider > ul > li {
-  position:static;
+  position: static;
   display: inline-block;
   width: 100%;
   height: 100%;
-  overflow:hidden;
+  overflow: hidden;
   font-size: 15px;
   font-size: initial;
   line-height: normal;
   box-sizing: border-box;
-  white-space: normal;
+  white-space: normal
 }
 .csslider > .navigation {
   position: absolute;
@@ -57,11 +54,10 @@ body {
   margin-bottom: -10px;
   font-size: 0;
   line-height: 0;
-  text-align: center;
-
+  text-align: center
 }
 .csslider > .navigation > div {
-    margin-left: -100%;
+  margin-left: -100%
 }
 .csslider > .navigation label {
   position: relative;
@@ -70,10 +66,10 @@ body {
   border-radius: 50%;
   margin: 0 4px;
   padding: 4px;
-  background: #E70009;
+  background: #e70009
 }
 .csslider > .navigation label:hover:after {
-  opacity: 1;
+  opacity: 1
 }
 .csslider > .navigation label:after {
   content: '';
@@ -82,23 +78,20 @@ body {
   top: 50%;
   margin-left: -6px;
   margin-top: -6px;
-  background: black;
+  background: #000;
   border-radius: 50%;
   padding: 6px;
-  opacity: 0;
+  opacity: 0
 }
-
 .csslider.inside .navigation {
   bottom: 10px;
-  margin-bottom: 10px;
-
+  margin-bottom: 10px
 }
 .csslider > input:nth-of-type(1):checked ~ .navigation label:nth-of-type(1):after,
 .csslider > input:nth-of-type(2):checked ~ .navigation label:nth-of-type(2):after,
 .csslider > input:nth-of-type(3):checked ~ .navigation label:nth-of-type(3):after {
-  opacity: 1;
+  opacity: 1
 }
-
 .csslider > .arrows {
   position: absolute;
   left: -31px;
@@ -106,169 +99,137 @@ body {
   width: 100%;
   height: 26px;
   padding: 0 31px;
-  box-sizing: content-box;
+  box-sizing: content-box
 }
-
 .csslider > .arrows label {
   display: none;
   position: absolute;
   top: -50%;
   padding: 13px;
-  box-shadow: inset 2px -2px 0 1px #E70009;
-  cursor: pointer;
+  box-shadow: inset 2px -2px 0 1px #e70009;
+  cursor: pointer
 }
-
 .csslider > .arrows label:hover {
-  box-shadow: inset 2px -2px 0 1px black;
-  margin: 0 0px;
+  box-shadow: inset 2px -2px 0 1px #000;
+  margin: 0 0
 }
-
 .csslider > .arrows label:before {
   content: '';
   position: absolute;
   top: -100%;
   left: -100%;
   height: 300%;
-  width: 300%;
+  width: 300%
 }
-
-.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
 .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
 .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
 .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
-.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3) {
+.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last {
   display: block;
   left: 0;
   right: auto;
-  transform: rotate(45deg);
+  transform: rotate(45deg)
 }
-
-.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
 .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
 .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
-.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4) {
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first {
   display: block;
   right: 0;
   left: auto;
-  transform: rotate(225deg);
+  transform: rotate(225deg)
 }
-
 * {
   margin: 0;
-  padding: 0;
+  padding: 0
 }
-
-ul {
-  padding-left: 40px;
+#slider1 {
+  font-family: Inter
 }
-
-  #slider1 {
-  /* margin: 20px; */
-  font-family: 'Inter';
-}
-
-video { 
-  width:610px; 
-  height:300px;  
-  background:transparent;
-  background-size:cover; 
+video {
+  width: 610px;
+  height: 300px;
+  background: 0 0;
+  background-size: cover;
   align-items: center;
   align-content: center;
   align-self: center;
-  object-fit: fill;
-   }
+  object-fit: fill
+}
 blockquote {
   padding-top: 10px;
-font-family: 'Inter';
-font-size: larger;
-color:#E70009;
-text-align: center;
+  font-family: Inter;
+  font-size: larger;
+  color: #e70009;
+  text-align: center
 }
-
-/* Footer */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-
-body{
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 50px 50px 50px;
-    background-color: #E70009;
-    height: 10px;
-}
-
-/* nav */
-nav ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li{
-    padding: 0 20px;
-}
-
-
-li > a{
-    text-decoration: none;
-    color: white;
-}
-
-/* right section */
-
-.right-container{
-    display: flex;
-    align-items: center;
-}
-
-.cart-container{
-    margin-right: 20px;
-}
-
-.log-in{
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 8px;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 10px 10px;
-    border: 2px solid white;
-    background-color: #E70009;
-    color: white;
-}
-
-/* Main */
-/* ads */
 body {
-  background-color:white;
+  font-family: Inter,sans-serif;
+  margin: 0
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 50px 50px 50px;
+  background-color: #e70009;
+  height: 10px
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+nav li {
+  padding: 0 20px
+}
+li > a {
+  text-decoration: none;
+  color: #fff
+}
+.right-container {
+  display: flex;
+  align-items: center
+}
+.cart-container {
+  margin-right: 20px
+}
+.log-in {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 8px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 10px;
+  border: 2px solid #fff;
+  background-color: #e70009;
+  color: #fff
+}
+body {
+  background-color: #fff
 }
 .csslider {
-  
   perspective: 1300px;
   display: inline-block;
   text-align: left;
   position: relative;
-  margin-bottom: 22px;
+  margin-bottom: 22px
 }
 .csslider > input {
-  display: none;
+  display: none
 }
 .csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
-  margin-left: -200%;
+  margin-left: -200%
 }
 .csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
-  margin-left: -100%;
+  margin-left: -100%
 }
 .csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
-  margin-left: 0%;
+  margin-left: 0
 }
 .csslider > ul {
   position: relative;
@@ -277,25 +238,25 @@ body {
   z-index: 1;
   font-size: 0;
   line-height: 0;
-  border: 10px solid white;
+  border: 10px solid #fff;
   border-radius: 40px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   white-space: scroll;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .csslider > ul > li {
-  position:static;
+  position: static;
   display: inline-block;
   width: 100%;
   height: 100%;
-  overflow:hidden;
+  overflow: hidden;
   font-size: 15px;
   font-size: initial;
   line-height: normal;
   box-sizing: border-box;
-  white-space: normal;
+  white-space: normal
 }
 .csslider > .navigation {
   position: absolute;
@@ -304,11 +265,10 @@ body {
   margin-bottom: -10px;
   font-size: 0;
   line-height: 0;
-  text-align: center;
-
+  text-align: center
 }
 .csslider > .navigation > div {
-    margin-left: -100%;
+  margin-left: -100%
 }
 .csslider > .navigation label {
   position: relative;
@@ -317,10 +277,10 @@ body {
   border-radius: 50%;
   margin: 0 4px;
   padding: 4px;
-  background: #E70009;
+  background: #e70009
 }
 .csslider > .navigation label:hover:after {
-  opacity: 1;
+  opacity: 1
 }
 .csslider > .navigation label:after {
   content: '';
@@ -329,23 +289,20 @@ body {
   top: 50%;
   margin-left: -6px;
   margin-top: -6px;
-  background: black;
+  background: #000;
   border-radius: 50%;
   padding: 6px;
-  opacity: 0;
+  opacity: 0
 }
-
 .csslider.inside .navigation {
   bottom: 10px;
-  margin-bottom: 10px;
-
+  margin-bottom: 10px
 }
 .csslider > input:nth-of-type(1):checked ~ .navigation label:nth-of-type(1):after,
 .csslider > input:nth-of-type(2):checked ~ .navigation label:nth-of-type(2):after,
 .csslider > input:nth-of-type(3):checked ~ .navigation label:nth-of-type(3):after {
-  opacity: 1;
+  opacity: 1
 }
-
 .csslider > .arrows {
   position: absolute;
   left: -31px;
@@ -353,304 +310,246 @@ body {
   width: 100%;
   height: 26px;
   padding: 0 31px;
-  box-sizing: content-box;
+  box-sizing: content-box
 }
-
 .csslider > .arrows label {
   display: none;
   position: absolute;
   top: -50%;
   padding: 13px;
-  box-shadow: inset 2px -2px 0 1px #E70009;
-  cursor: pointer;
+  box-shadow: inset 2px -2px 0 1px #e70009;
+  cursor: pointer
 }
-
 .csslider > .arrows label:hover {
-  box-shadow: inset 2px -2px 0 1px black;
-  margin: 0 0px;
+  box-shadow: inset 2px -2px 0 1px #000;
+  margin: 0 0
 }
-
 .csslider > .arrows label:before {
   content: '';
   position: absolute;
   top: -100%;
   left: -100%;
   height: 300%;
-  width: 300%;
+  width: 300%
 }
-
-.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
 .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
 .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
 .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
-.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3) {
+.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last {
   display: block;
   left: 0;
   right: auto;
-  transform: rotate(45deg);
+  transform: rotate(45deg)
 }
-
-.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
 .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
 .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
-.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4) {
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first {
   display: block;
   right: 0;
   left: auto;
-  transform: rotate(225deg);
+  transform: rotate(225deg)
 }
-
 * {
   margin: 0;
-  padding: 0;
+  padding: 0
 }
-
-ul {
-  padding-left: 40px;
+#slider1 {
+  font-family: Inter
 }
-
-  #slider1 {
-  /* margin: 20px; */
-  font-family: 'Inter';
-}
-
-video { 
-  width:610px; 
-  height:300px;  
-  background:transparent;
-  background-size:cover; 
+video {
+  width: 610px;
+  height: 300px;
+  background: 0 0;
+  background-size: cover;
   align-items: center;
   align-content: center;
   align-self: center;
-  object-fit: fill;
-   }
+  object-fit: fill
+}
 blockquote {
-font-family: 'Inter';
-font-size: larger;
-color:#E70009;
-text-align: center;
+  font-family: Inter;
+  font-size: larger;
+  color: #e70009;
+  text-align: center
 }
-
-
-/* footer */
-#body{
-  background-color: white;
+#body {
+  background-color: #fff
 }
-#show{
-  background-color: white;
-  font-family: 'Inter';
+#show {
+  background-color: #fff;
+  font-family: Inter;
   text-align: center;
   font-size: 20px;
   color: #e70009;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 10px 10px 10px 10px;
   border-style: outset;
   word-spacing: 3px;
-
-  margin: 20px;
+  margin: 20px
 }
-#show:hover{
-  opacity: 0.5;
+#show:hover {
+  opacity: .5
 }
-footer p{
+footer p {
   text-align: center;
   align-items: center;
   color: gray;
-  font-family: 'Inter';
-  font-size: x-small;
+  font-family: Inter;
+  font-size: x-small
 }
-#h2{
-  color: black;
-  font-family: 'Inter';
-  font-weight: bold;
+#h2 {
+  color: #000;
+  font-family: Inter;
+  font-weight: 700
 }
-#h2:hover{
-  opacity: 0.8;
+#h2:hover {
+  opacity: .8;
   text-decoration-line: underline;
   text-decoration-color: #e70009;
   text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
+  text-underline-offset: 5px
 }
-.epicx{
+.epicx {
   color: #e70009;
   justify-content: center;
-  height: 80px;
+  height: 80px
 }
-.epicx:hover{
-  opacity: 0.5;
+.epicx:hover {
+  opacity: .5
 }
-
-#socials{
+#socials {
   background-color: #e70009;
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px; 
+  padding: 10px 30px
 }
-
-.fa{
+.fa {
   padding: 20px;
   text-align: center;
-  color: white;
+  color: #fff;
   font-size: 200px;
-  width: 50px;
+  width: 50px
 }
-
-.fa:hover{
-  opacity: 0.5;
+.fa:hover {
+  opacity: .5
 }
 .fa-facebook {
-  background: none;
-  color: white;
+  background: 0 0;
+  color: #fff;
   position: absolute;
   top: 310px;
-  right: 120px;
-  
+  right: 120px
 }
-.fa-instagram{
-  background: none;
-  color: white;
+.fa-instagram {
+  background: 0 0;
+  color: #fff;
   position: absolute;
   top: 310px;
-  right: 80px;
+  right: 80px
 }
-.fa-twitter{
-  background: none;
-  color: white;
+.fa-twitter {
+  background: 0 0;
+  color: #fff;
   position: absolute;
   top: 310px;
-  right: 40px;
+  right: 40px
 }
-.fa-youtube{
-  background: none;
-  color: white;
+.fa-youtube {
+  background: 0 0;
+  color: #fff;
   position: absolute;
   top: 310px;
-  right: 1px;
+  right: 1px
 }
-#li{
+#li {
   color: #e70009;
-  font-family: 'Inter';
+  font-family: Inter;
   list-style-type: none;
   line-height: 3;
-  font-size: 12px;
+  font-size: 12px
 }
-#li:hover{
-  opacity: 0.8;
+#li:hover {
+  opacity: .8;
   flood-opacity: inherit;
   text-decoration-line: underline;
   text-decoration-color: #e70009;
   text-decoration-thickness: 2px;
-  text-underline-offset: 5px;
+  text-underline-offset: 5px
 }
-footer{
+footer {
   margin: 0;
-  font-family: 'Inter';
-  color: white;
+  font-family: Inter;
+  color: #fff;
   font-size: small;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 20px;
   text-align: center;
-  word-spacing: 1px;
+  word-spacing: 1px
 }
-#below{
-  color: white;
-  font-family: 'Inter';
+#below {
+  color: #fff;
+  font-family: Inter;
   font-size: small;
   display: inline-block;
   text-decoration: none;
-  word-spacing: 2px;
+  word-spacing: 2px
 }
-#below:hover{
+#below:hover {
   opacity: none;
   text-decoration-line: underline;
   text-decoration-color: #e70009;
   text-decoration-thickness: 2px;
-  text-underline-offset: 4.5px;
+  text-underline-offset: 4.5px
 }
-#phflag{
+#phflag {
   height: 10px;
-  width: 15px;
+  width: 15px
 }
-.flex-container{
+.flex-container {
   display: flex;
   justify-content: space-around;
-  background-color: white;
-  /* margin-top: 20px; */
+  background-color: #fff
 }
 .flex-container > div {
-  background-color: white;
+  background-color: #fff;
   width: 190px;
   margin: 1px;
-  font-family: 'Inter';
+  font-family: Inter;
   line-height: 1;
   border-left: 2px solid gray;
   padding-left: 5px;
-  text-align: justify;
+  text-align: justify
 }
-
-.below-container{
-  background-color: black;
+.below-container {
+  background-color: #000;
   margin: 0;
-  padding: 20px;
+  padding: 20px
 }
-
-.social-icon{
+.social-icon {
   width: 15px;
   filter: invert(100%);
-  padding: 10px;
+  padding: 10px
+}
+.game-shown-container {
+  margin-top: 20px
 }
 
-.game-shown-container{
-  margin-top: 20px;
-}
-
-/* Warning for smaller screen*/
-@media screen and (max-width: 1023px) {
-  
-  
-  main, header, footer {
-    display: none;
-  }
-
-  
-  body::before {
-    content: "Warning: This website is best viewed on a larger screen. Please switch to a desktop/laptop device for an optimal experience.";
-    display: block;
-    padding: 20px;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    background-color: #E70009;
-    position: fixed; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 80%; 
-    max-width: 400px; 
-    font-size: 24px;
-  }
-
-  html {
-    background-color: #E70009;
-  }
-}
-
-
-/* Mika */
-.play-together p, .classify p{
-  font-family: 'Inter';
+.classify p,
+.play-together p {
+  font-family: Inter;
   color: #e70009;
   font-size: 40px;
   text-align: center;
   font-weight: 60px;
-  margin-top: 10px;
+  margin-top: 10px
 }
 .container {
   display: inline-block;
@@ -662,39 +561,35 @@ footer{
   text-align: center;
   border-radius: 70px 70px 70px 70px;
   box-sizing: border-box;
-  background-color: #BDC3C7;
-  transition: background-color 1s ease-out 200ms;
+  background-color: #bdc3c7;
+  transition: background-color 1s ease-out .2s
 }
-.container:hover{
-  background-color: #EAECEE;
-  transform: scale(1.0);
+.container:hover {
+  background-color: #eaecee;
+  transform: scale(1)
 }
 .game-image {
   height: 15%;
   width: 25%;
   margin: 20px;
   border: 5px solid #e70009;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px
 }
 .game-image:hover {
   transform: scale(1.1);
-  transition: transform 0.2s ease-in-out;
-  cursor: pointer;
+  transition: transform .2s ease-in-out;
+  cursor: pointer
 }
 .game-image:nth-child(even) {
-  border-color: #e70009;
+  border-color: #e70009
 }
 .game-image:nth-child(odd) {
-  border-color: #e70009;
+  border-color: #e70009
 }
 .game-image:last-child {
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
-
-/* Neil */
-
-
-.image-container{
+.image-container {
   height: 100px;
   width: 150px;
   border: 3px solid #fff;
@@ -702,24 +597,45 @@ footer{
   margin: 20px;
   padding: 10px;
   display: flex;
-  align-items: center;
+  align-items: center
 }
-  
-.image-section{
+.image-section {
   padding-top: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  justify-content: center
 }
-
-.image-section img{
-  width: 150px;
+.image-section img {
+  width: 150px
 }
-
-.intro p{
-      display: flex;
-      flex-direction: column;
-      padding: 0 50px 0 50px;
-  }
-
+.intro p {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px 0 50px
+}
+.sapbutton {
+  background-color: #e70009;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px 12px 12px 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  width: 300px
+}
+.sapbutton:hover {
+  transform: scale(1.1);
+  transition: all ease .5s
+}
+.sap {
+  text-align: center;
+  text-decoration: none;
+  color: #fff
+}
+.sap-container {
+  padding: 20px 0
+}
