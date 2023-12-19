@@ -10,26 +10,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 50px 50px 50px;
+  padding: 50px;
   background-color: #e70009;
   height: 10px;
   font-size: 18px;
   font-weight: 600
 }
-.log-in {
-  display: inline-block;
-  outline: 0;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 8px;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 10px 10px;
-  border: 2px solid #e70009;
-  background-color: #e70009;
-  color: #e70009;
-  cursor: default
-}
+.log-in,
 .log-in.index {
   display: inline-block;
   outline: 0;
@@ -38,9 +25,13 @@ header {
   line-height: 8px;
   font-weight: 600;
   border-radius: 8px;
-  padding: 10px 10px;
-  border: 2px solid #fff;
+  padding: 10px;
+  border: 2px solid #e70009;
   background-color: #e70009;
+  color: #e70009
+}
+.log-in.index {
+  border: 2px solid #fff;
   color: #fff
 }
 nav ul {

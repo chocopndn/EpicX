@@ -1,52 +1,6 @@
-.below-container {
-  color: #fff;
-  background-color: #000;
-  margin: 0;
-  padding: 20px
-}
-.below-container {
-  background-color: #000;
-  margin: 0;
-  padding: 20px
-}
-footer {
-  margin: 0;
-  font-family: Inter;
-  color: #fff;
-  font-size: small;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  text-align: center;
-  word-spacing: 1px
-}
-#below {
-  color: #fff;
-  font-family: Inter;
-  font-size: small;
-  display: inline-block;
-  text-decoration: none;
-  word-spacing: 2px
-}
-#below:hover {
-  opacity: none;
-  text-decoration-line: underline;
-  text-decoration-color: #e70009;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4.5px
-}
-#phflag {
-  height: 10px;
-  width: 15px
-}
-footer p {
-  text-align: center;
-  align-items: center;
-  color: gray;
-  font-family: Inter;
-  font-size: x-small;
-  margin: 0;
-  padding: 0
+body {
+  font-family: Inter,sans-serif;
+  margin: 0
 }
 .game-list {
   display: grid;
@@ -122,4 +76,47 @@ hr {
 }
 .console-name-container.three-line {
   padding-top: 10px
+}
+.below-container {
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+  padding: 20px
+}
+footer {
+  margin: 0;
+  font-family: Inter,sans-serif;
+  color: #fff;
+  font-size: small;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  word-spacing: 1px
+}
+#below {
+  color: #fff;
+  font-family: Inter,sans-serif;
+  font-size: small;
+  display: inline-block;
+  text-decoration: none;
+  word-spacing: 2px
+}
+#below:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #e70009;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4.5px
+}
+#phflag {
+  height: 10px;
+  width: 15px
+}
+footer p {
+  text-align: center;
+  align-items: center;
+  color: gray;
+  font-size: x-small;
+  margin: 0;
+  padding: 0
 }

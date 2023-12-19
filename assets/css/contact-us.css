@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap);
+body {
+  font-family: Inter,sans-serif
+}
 .cu-section {
   max-width: 600px;
   margin: 0 auto;
@@ -5,16 +9,13 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   margin-bottom: 20px;
-  padding: 20px;
-  font-family: Inter
+  padding: 20px
 }
 .cuh2title {
-  color: #e70009;
-  font-family: Inter
+  color: #e70009
 }
 .cu-p {
-  line-height: 1.5;
-  font-family: Inter
+  line-height: 1.5
 }
 .contact-form {
   max-width: 600px;
@@ -50,7 +51,6 @@
   color: #000
 }
 .cu-href:hover {
-  opacity: none;
   text-decoration-line: underline;
   text-decoration-color: #e70009;
   text-decoration-thickness: 2px;

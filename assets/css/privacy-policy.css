@@ -1,25 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
 .ppheader {
   background-color: #626567;
-  color: #ffff;
+  color: #fff;
   text-align: center;
-  font-family: Inter;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: Inter
+  font-size: 20px;
 }
+
 .ppparagraph {
   line-height: 1.5;
-  font-family: Inter;
+  font-size: 12px;
+  text-align: justify;
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 12px;
-  text-align: justify
+  font-family: 'Inter', sans-serif;
 }
+
 .pptitle {
   line-height: 1.5;
-  font-family: Inter;
   color: #e70009;
   margin-left: 60px;
   margin-right: 100px;
-  font-size: 15px
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
 }

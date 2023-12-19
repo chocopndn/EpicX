@@ -1,26 +1,25 @@
-.cgparagpraph{
-    font-family: 'Inter';
-    font-size: 12px;
-    text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: #484848;
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap);
+body {
+  font-family: Inter,sans-serif
 }
-.cgtitle{
-    font-family: 'Inter';
-    font-size: 15px;
-    text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: #e70009;
+.cgparagpraph,
+.cgtitle {
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px
+}
+.cgparagpraph {
+  color: #484848
+}
+.cgtitle {
+  color: #e70009
 }
 .cgheader {
-        background-color: #626562;
-        color: #ffff;
-        text-align: center;
-        font-family: 'Inter';
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-family: 'Inter';
-        font-size: 20px;
-    }
+  background-color: #626562;
+  color: #ffff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Inter;
+  font-size: 20px
+}
