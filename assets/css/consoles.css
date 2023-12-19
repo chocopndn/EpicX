@@ -1,151 +1,152 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap);
-#gccontainer {
-  background-color: #bdc3c7;
-  padding-bottom: 30px;
-  padding-top: 30px
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+#gccontainer{
+    background-color: #bdc3c7;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
-#gcbox {
-  background-color: #626567;
-  display: inline-block;
-  margin-right: 500px;
-  margin-left: 50px;
-  border-radius: 10px 10px 10px 10px;
-  box-sizing: border-box;
-  font-family: Inter;
-  font-weight: 700;
-  font-size: 30px;
-  color: #fff;
-  text-align: justify;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  line-height: 1.5
+#gcbox{
+    background-color: #626567;
+    display: inline-block;
+    margin-right: 500px;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1.5;
 }
-#img-c-logos {
-  height: 25px;
-  width: 45px
+#img-c-logos{
+    height: 25px;
+    width: 45px;
 }
-#img-c-logos:hover {
-  opacity: .6
+#img-c-logos:hover{
+    opacity: 0.6;
 }
-#gcshop {
-  font-family: Inter;
-  font-size: 15px;
-  color: #fff;
-  font-weight: 400
+#gcshop{
+    font-family: 'Inter';
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
 }
-#img-play {
-  height: 125px;
-  width: 200px;
-  margin-left: 800px;
-  margin-bottom: -118px
+#img-play{
+    height: 125px;
+    width: 200px;
+    margin-left: 800px;
+    margin-bottom: -118px;
 }
-.gcline {
-  color: #626567
+.gcline{
+    color: #626567;
 }
-.gcconsoles-area {
-  display: flex;
-  justify-content: space-around;
-  background-color: #fff
+.gcconsoles-area{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
 }
-.gcconsoles-area > div {
-  width: 240px;
-  border-radius: 25px 25px 25px 25px;
-  border-color: #e70009;
-  box-sizing: border-box;
-  border-style: solid
+.gcconsoles-area > div{
+    width: 240px;
+    border-radius: 25px 25px 25px 25px;
+    border-color: #e70009;
+    box-sizing: border-box;
+    border-style: solid;
 }
-.gcconsoles {
-  display: block;
-  color: #000;
-  font-family: Inter;
-  font-size: 25px;
-  font-weight: 500;
-  text-align: center;
-  padding: 10px;
-  font-weight: 600
+.gcconsoles{
+    display: block;
+    color: black;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
 }
-.gcconsoles:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-  transition: transform .2s ease-in-out;
-  color: #e70009
+.gcconsoles:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    color: #e70009;
 }
-.gcsystemarea {
-  display: flex;
-  justify-content: space-around;
-  background-color: #fff;
-  margin-left: 50px;
-  margin-right: 50px
+.gcsystemarea{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.gcsystemarea > div {
-  align-content: center;
-  border-color: #fff;
-  font-family: Inter;
-  justify-content: center;
-  text-align: center;
-  color: #000;
-  border-radius: 10px 10px 10px 10px;
-  border-width: 1.5px;
-  display: block;
-  border-style: solid;
-  font-weight: 500;
-  font-size: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 1.5;
-  width: 280px;
-  box-shadow: 0 0 20px rgba(0,0,0,.1)
+.gcsystemarea > div{
+    align-content: center;
+    border-color: #fff;
+    font-family: 'Inter';
+    justify-content: center;
+    text-align: center;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 1.5px;
+    display: block;
+    border-style: solid;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    width: 280px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-.gcsystem {
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  transition: margin .2s ease-in-out;
-  margin-right: 2px
+.gcsystem{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: margin 0.2s ease-in-out;
+    margin-right: 2px;
 }
-.gcsystem:hover {
-  transform: scale(1);
-  transition: transform .2s;
-  margin-top: -8px;
-  color: #e70009
+.gcsystem:hover{
+    transform: scale(1.0);
+    transition: transform 0.2s;
+    margin-top: -8px;
+    color: #e70009;
 }
-.gc-paragraph {
-  align-items: center;
-  text-align: center;
-  font-family: Inter;
-  font-size: 40px;
-  font-weight: 600;
-  color: #e70009
+.gc-paragraph{
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 600;
+    color: #e70009;
 }
-#img-con {
-  height: 150px;
-  width: 250px
+#img-con{
+    height: 150px;
+    width: 250px;
 }
-.gcprice {
-  font-family: Inter;
-  text-align: justify;
-  color: #000;
-  margin-left: 20px;
-  border-left: 2px solid #e70009;
-  line-height: 1;
-  padding-left: 5px
+.gcprice{
+    font-family: 'Inter';
+    text-align: justify;
+    color: black;
+    margin-left: 20px;
+    border-left: 2px solid #e70009;
+    line-height: 1;
+    padding-left: 5px;
 }
-.gcexclusive {
-  border-radius: 10px 10px 10px 10px;
-  background-color: #e70009;
-  font-family: Inter;
-  font-size: 10px;
-  margin-left: 20px;
-  border-style: none;
-  color: #fff;
-  width: 80px
+.gcexclusive{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #e70009;
+    font-family: 'Inter';
+    font-size: 10px;
+    margin-left: 20px;
+    border-style: none;
+    color: white;
+    width: 80px;
 }
-.gclogos {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 220px
+.gclogos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 220px;
 }
