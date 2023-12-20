@@ -43,6 +43,10 @@ Special thanks to the following contributors for their hard work on this project
 
 - [Jovilyn Areglado](https://www.facebook.com/lesyeuxdenini29)
 - [Bryan Parto](https://www.facebook.com/bryanmark.parto.5)
+- [Charity Castillejo](https://www.facebook.com/charity.aganacastillejo.5)
+- [Juliana Chrisha Suyu](https://www.facebook.com/yanna.suyu)
+- [Kelvin Scott Uclaray](https://www.facebook.com/KelvinScott.uclaray)
+- [Michaela Jane Angaoan](https://www.facebook.com/profile.php?id=100076223153687)
 
 **Note: The list of contributors will be dynamically updated as groupmates contribute.**
 
