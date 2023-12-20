@@ -322,7 +322,6 @@ footer {
 .game-image:hover {
   transform: scale(1.1);
   transition: transform .2s ease-in-out;
-  cursor: pointer
 }
 .game-image:nth-child(even) {
   border-color: #e70009
