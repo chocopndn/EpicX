@@ -18,9 +18,54 @@ body {
   transition: transform .3s ease;
   margin: 15px
 }
-.game-container:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 15px 2px #e70009
+.game-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px 2px #e70009;
+
+    .download {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .price, .game-console-container{
+      visibility: hidden;
+    }
+  }
+}
+
+.game-container a{
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.download {
+  position: relative;
+  bottom: 75px;
+  left: 25px;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  transition: opacity .2s ease, visibility .2s ease;
+
+  
+  
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 50px;
+  border: none;
+  
+  background-color: #e70009;
+  color: #fff;
+
 }
 .game-image {
   width: 230px;
