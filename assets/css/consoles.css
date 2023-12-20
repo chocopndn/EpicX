@@ -1,7 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap);
-body {
-  font-family: Inter,sans-serif
-}
 #gccontainer {
   background-color: #bdc3c7;
   padding-bottom: 30px;
@@ -12,20 +8,28 @@ body {
   display: inline-block;
   margin-right: 500px;
   margin-left: 50px;
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
   box-sizing: border-box;
+  font-family: Inter;
   font-weight: 700;
   font-size: 30px;
   color: #fff;
   text-align: justify;
-  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   line-height: 1.5
 }
 #img-c-logos {
   height: 25px;
   width: 45px
 }
+#img-c-logos:hover {
+  opacity: .6
+}
 #gcshop {
+  font-family: Inter;
   font-size: 15px;
   color: #fff;
   font-weight: 400
@@ -46,7 +50,7 @@ body {
 }
 .gcconsoles-area > div {
   width: 240px;
-  border-radius: 25px;
+  border-radius: 25px 25px 25px 25px;
   border-color: #e70009;
   box-sizing: border-box;
   border-style: solid
@@ -54,11 +58,18 @@ body {
 .gcconsoles {
   display: block;
   color: #000;
+  font-family: Inter;
   font-size: 25px;
   font-weight: 500;
   text-align: center;
   padding: 10px;
   font-weight: 600
+}
+.gcconsoles:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform .2s ease-in-out;
+  color: #e70009
 }
 .gcsystemarea {
   display: flex;
@@ -70,29 +81,39 @@ body {
 .gcsystemarea > div {
   align-content: center;
   border-color: #fff;
+  font-family: Inter;
   justify-content: center;
   text-align: center;
   color: #000;
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
   border-width: 1.5px;
   display: block;
   border-style: solid;
   font-weight: 500;
   font-size: 15px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   line-height: 1.5;
   width: 280px;
   box-shadow: 0 0 20px rgba(0,0,0,.1)
 }
 .gcsystem {
   text-align: center;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   transition: margin .2s ease-in-out;
   margin-right: 2px
+}
+.gcsystem:hover {
+  transform: scale(1);
+  transition: transform .2s;
+  margin-top: -8px;
+  color: #e70009
 }
 .gc-paragraph {
   align-items: center;
   text-align: center;
+  font-family: Inter;
   font-size: 40px;
   font-weight: 600;
   color: #e70009
@@ -102,7 +123,7 @@ body {
   width: 250px
 }
 .gcprice {
-  font-size: 15px;
+  font-family: Inter;
   text-align: justify;
   color: #000;
   margin-left: 20px;
@@ -111,8 +132,9 @@ body {
   padding-left: 5px
 }
 .gcexclusive {
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
   background-color: #e70009;
+  font-family: Inter;
   font-size: 10px;
   margin-left: 20px;
   border-style: none;
